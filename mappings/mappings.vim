@@ -1,10 +1,8 @@
 " g Leader key
 let mapleader=" "
 
-nnoremap <leader>tk :tabnext<CR>
-nnoremap <Leader>v :bp<CR>
-nnoremap <Leader>m :bn<CR>
-nnoremap <Leader>c :bw<CR>
+nnoremap <C-m> :bnext<CR>
+nnoremap <C-v> :bprevious<CR>
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
